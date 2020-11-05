@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 1890px;
+  width: 8160px;
+}
+li {
+  list-style: none;
+}
+#app {
+  width: 8160px;
+  height: 1890px;
+  background: url(../assets/backGround2.0.jpg);
+  background-size: 100% 100%;
+}
+#app .main-box {
+  position: relative;
+  display: flex;
+}
+#app .main-box .channel {
+  position: relative;
+  width: 2842px;
+  height: 180 6px;
+  background: url(../assets//能效管理框@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 82px 44px 0;
+  padding-left: 20px;
+}
+#app .main-box .channel .header {
+  font-size: 56px;
+  color: #2dedf8;
+  text-align: center;
+  line-height: 96px;
+  margin-top: 65px;
+}
+#app .main-box .channel .title {
+  margin-top: 67px;
+  display: flex;
+}
+#app .main-box .channel .title .left {
+  width: 910px;
+}
+#app .main-box .channel .title .left ul {
+  display: flex;
+  padding-left: 20px;
+}
+#app .main-box .channel .title .left ul li {
+  position: relative;
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 65px;
+  flex: 1;
+  text-align: center;
+}
+#app .main-box .channel .title .left ul li span {
+  color: #fff072;
+}
+#app .main-box .channel .title .left ul li:nth-child(1)::after,
+#app .main-box .channel .title .left ul li:nth-child(2)::after {
+  position: absolute;
+  right: 0;
+  width: 1;
+  margin-top: 13px;
+  height: 30px;
+  border: 2px solid #fff;
+  content: "";
+}
+#app .main-box .channel .title .right {
+  margin-left: 37px;
+  width: 1840px;
+  height: 65px;
+  background: red;
+}
+#app .main-box .channel .box {
+  position: absolute;
+  bottom: 45px;
+  display: flex;
+}
+#app .main-box .channel .box .channel-left,
+#app .main-box .channel .box .channel-center,
+#app .main-box .channel .box .channel-right {
+  width: 910px;
+  height: 1450px;
+  background: rgba(8, 68, 126, 0.2);
+  margin: 0 12px;
+}
+#app .main-box .map {
+  width: 2315px;
+  height: 1806px;
+  background: url(../assets/地图.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 82px;
+}
+#app .main-box .workOrder {
+  width: 2842px;
+  height: 1806px;
+  background: url(../assets//能效管理框@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 82px 44px 0;
+}
